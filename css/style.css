@@ -25,9 +25,15 @@
 .tag.tag-big {
   font-size: 125%;
 }
-.text-justify {
+p {
   text-align: justify;
 }
 ul {
   padding-left: 15%;
+}
+.github-link {
+  background-image: url('../images/GitHub-Mark-32px.png');
+  display: block;
+  width: 32px;
+  height: 32px;
 }
