@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Caligone - Pierre-Jean Leger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+              <span class="sr-only">Toggle navigation</span>
+            </button>
+            <a class="navbar-brand" href="#bonjour">Pierre-Jean Leger</a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-collapse-01">
+            <ul class="nav navbar-nav">
+              <li><a href="#competences">Mes Compétences</a></li>
+              <li><a href="#portfolio">Mon Portfolio</a></li>
+              <li><a href="#contact">Prenez Contact</a></li>
+            </ul>
+          </div>
+      </nav>
+
+      <div id="impress">
+
+        <div class="step simple" data-x="0" data-y="0" id="bonjour">
+          <h1 class="text-center">Bonjour</h1>
+          <img src="images/portrait.png" alt="Portrait" id="portrait">
+          <p class="lead text-center">Je suis <strong>Pierre-Jean Leger</strong> alias <a href="http://twitter.com/Calig0ne" title="Retrouvez-moi sur Twitter"><strong>Caligone</strong></a>.</p>
+        </div>
+
+        <div class="step simple" data-x="1500" data-y="0" id="presentation">
+          <p class="lead">Je suis actuellement <strong>apprenti ingénieur</strong> à <strong>CPE Lyon</strong> en alternance à <strong>Orange France</strong>.<p/>
+          <p class="lead">En parallèle à mes études, je réalise de petits contrats de développement web sous le statut d'<strong>auto-entrepreneur</strong> afin d'améliorer mes compétences.</p>
+          <p class="lead">Je suis adepte des <strong>projets ambitieux</strong> et <strong>autodidacte</strong> dans de nombreux domaines.</p>
+        </div>
+
+        <div class="step simple" data-x="3000" data-y="0" id="competences">
+          <h1 class="text-center">Mes compétences</h1>
+        </div>
+
+        <div class="step simple" data-x="4500" data-y="0" id="competences-languages">
+          <p class="lead">Selon le contexte, je suis amené à manipuler plusieurs langages dont :</p>
+          <p class="text-center">
+            <span class="tag tag-big">PHP</span>
+            <span class="tag tag-big">JavaScript</span>
+            <span class="tag tag-big">Java</span><br/>
+            <span class="tag tag-medium">HTML</span>
+            <span class="tag tag-medium">CSS</span>
+            <span class="tag tag-small">C/C++</span><br/>
+            <span class="tag tag-small">Ruby</span>
+            <span class="tag tag-small">Python</span>
+            <span class="tag tag-small">Perl</span><br/>
+            <span class="tag tag-small">Bash</span>
+          </p>
+        </div>
+
+        <div class="step simple" data-x="6000" data-y="0" id="competences-outils">
+          <p class="lead">J'utilise également de nombreux outils pour travailler plus rapidement :
+            <ul>
+              <li><span class="tag tag-big">Sublime Text 2</span> Pour écrire mon code efficacement</li>
+              <li><span class="tag tag-big">Git</span> Pour gérer mes versions de projets</li>
+              <li><span class="tag tag-medium">GruntJS</span> & <span class="tag tag-medium">GulpJS</span>Pour automatiser certaines de mes actions</li>
+              <li><span class="tag tag-medium">Yo</span> Pour créer rapidement de nouveaux projets</li>
+            </ul>
+          <p class="lead">Ainsi que différents frameworks :
+            <ul>
+              <li><span class="tag tag-big">SailsJS</span></li>
+              <li><span class="tag tag-medium">Symfony 2</span></li>
+              <li><span class="tag tag-medium">Laravel 4</span></li>
+            </ul>
+          </p>
+        </div>
+
+        <div class="step simple" data-x="0" data-y="0" data-z="1000" data-scale="4" id="to-be-continued">
+          <h1 class="text-center">To Be Continued...</h1>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/bootstrap-switch.js"></script>
+    <script src="js/flatui-checkbox.js"></script>
+    <script src="js/flatui-radio.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script src="js/impress.js"></script>
+    <script>impress().init();</script>
+  </body>
+</html>
