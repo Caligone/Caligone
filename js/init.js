@@ -12,14 +12,14 @@
 			header: {
 				fullScreen: true,
 				fadeIn: true,
-				fadeDelay: 500
+				fadeDelay: 10
 			},
 
 		// Carousels
 			carousels: {
 				speed: 4,
 				fadeIn: true,
-				fadeDelay: 250
+				fadeDelay: 150
 			},
 	
 	};
