@@ -1,11 +1,4 @@
-# DOCKER-VERSION 1.1.2
-FROM	node
+FROM dockerfile/nginx
 
-COPY . /src
-RUN cd /src
-
-RUN npm install -g node-static
-
-EXPOSE 8080
-
-CMD static /src
+COPY . /var/www/html
+CMD rm /var/www/html/Dockerfile
