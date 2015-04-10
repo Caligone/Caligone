@@ -228,6 +228,11 @@
 				line-height: 1.5em;
 				text-align: inherit;
 			}
+
+			header > h2
+			{
+				color: #ffffff;
+			}
 			
 		footer
 		{
