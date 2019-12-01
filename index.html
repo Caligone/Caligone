@@ -4,35 +4,48 @@
 		<title>Pierre-Jean Léger</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-		<link rel="stylesheet" href="assets/css/main.min.css" />
+		<meta name="Description" content="Pierre-Jean Léger (Caligone) - Computer Engineer presentation website">
+		<meta name="theme-color" content="#FFFFFF"/>
+		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body>
-		
-		<canvas></canvas>
 
 		<div id="wrapper">
 
 			<section id="main">
 				<header>
-					<span class="avatar"><img src="images/portrait.png" alt="Portait de Pierre-Jean Léger" /></span>
+					<span class="avatar">
+						<img src="images/portrait.png" alt="Portait de Pierre-Jean Léger" />
+					</span>
 					<h1>Pierre-Jean Léger</h1>
 					<p>Computer Engineer</p>
 				</header>
 				
 				<footer>
-					<ul class="icons">
-						<li><a href="https://github.com/caligone" class="fa-github">Github</a></li>
-						<li><a href="mailto:nospam@cnil.fr" owned="h e l l o # c a l i g . o n e" class="icon fa-envelope-o" id="no-spam">Email</a></li>
-						<li><a href="https://twitter.com/calig0ne" class="fa-twitter">Twitter</a></li>
+					<ul>
+						<li>
+							<a href="https://github.com/caligone">
+								Github
+							</a>
+						</li>
+						<li>
+							<a href="mailto:nospam@cnil.fr" owned="h e l l o # c a l i g . o n e" id="no-spam">
+								Email
+							</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/calig0ne">
+								Twitter
+							</a>
+						</li>
 					</ul>
 				</footer>
 			</section>
 
-			<footer id="footer"></footer>
+			<div id="footer"></div>
 
 		</div>
-		<script src="assets/js/background.js"></script>
+
 		<script>
 			document.getElementById('no-spam').addEventListener('click', function(e) {
 				var newHrefAttribute = 'mailto:' + this.getAttribute('owned').replace(/\s/g, '').replace('#', '@');
